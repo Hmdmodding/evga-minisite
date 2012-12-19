@@ -48,7 +48,7 @@ body {
     line-height: 1.4;
     background: url(../images/bg_main.png) no-repeat;  
     background-color:#000;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
     background-position: top center;    
 }
 
@@ -155,7 +155,6 @@ textarea {
     padding: 0;
     width: 960px;
     height: 109px;
-    opacity: 0.9;
     background: url(../images/heading.png) no-repeat;      
 
 
@@ -231,11 +230,59 @@ textarea {
     -webkit-box-shadow: inset 2px 2px 2px 2px rgba(0, 0, , 0.6);
     box-shadow: inset 2px 2px 2px 2px rgba(0, 0, , 0.6);
 
-    
+}
+
+#galeria {
+    float:left;
+    width: 425px;
+    margin-top: 29px;
+}
+
+.small {
+    float:left;
+    margin-left: 4px;
+    margin-bottom: 11px;
 
 }
 
+#specifications {
+    float: left;
+    background-color:rgba(32,32,32, 0.8);
+    width:959px;
+    -moz-border-radius:13px ;
+    -webkit-border-radius:13px ;
+    border-radius:13px ;
+    /*background: url(../images/specifications-bg.png) no-repeat;*/
+}
 
+.col {
+    float: left;
+    margin: 10px 20px;
+
+}
+
+.col ul {
+    float: left;
+    clear: both;
+    margin-top: 5px;
+    padding: 0 28px;
+    font-family: arial;
+    font-size: 14px;
+    color: #7F7F7F;
+    list-style: none;
+}
+
+#features{
+    float: left; 
+    margin-top: 15px;
+    background-color:rgba(32,32,32,0.8);
+    width:959px;
+    height:240px;
+    -moz-border-radius:13px ;   
+    -webkit-border-radius:13px ;
+    border-radius:13px ;
+
+}
 
 /* ==========================================================================
    Media Queries
@@ -317,7 +364,18 @@ h1,h2,h3,h4,h5,h6 {
 .title4 span {
     color:#AB0000;
 
+}
 
+.title5{
+    float: left;
+    font-family: 'geared_slabregular';
+    font-size: 25px;
+    padding: 20px 0 0 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #000;
+    color:#B8B8B8;
+    opacity: 0.5;
 }
 
 
