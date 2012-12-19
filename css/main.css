@@ -175,14 +175,15 @@ textarea {
     width: 494px;
     height: 290px;
     margin: 9px 0;  
-    background-color:#262629; 
+    background-color:#262626; 
     /* Firefox v1.0+ */
     -moz-border-radius:7px ;
     /* Safari v3.0+ and by Chrome v0.2+ */
     -webkit-border-radius:7px ;
     /* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
     border-radius:7px ;
-
+    background: rgb(60, 60, 60);
+    background: rgba(60, 60, 60, 0.7);
 
 }
 
@@ -207,13 +208,15 @@ textarea {
     width: 450px;
     height: 290px;
     margin: 9px 0;  
-    background-color:#262629; 
+    background-color:#262626; 
     /* Firefox v1.0+ */
     -moz-border-radius:7px ;
     /* Safari v3.0+ and by Chrome v0.2+ */
     -webkit-border-radius:7px ;
     /* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
     border-radius:7px ;
+    background: rgb(60, 60, 60);
+    background: rgba(60, 60, 60, 0.7);
 }
 
 .title-photos {
@@ -227,6 +230,7 @@ textarea {
     border-radius:7px ;
     -webkit-box-shadow: inset 2px 2px 2px 2px rgba(0, 0, , 0.6);
     box-shadow: inset 2px 2px 2px 2px rgba(0, 0, , 0.6);
+
     
 
 }
