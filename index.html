@@ -9,22 +9,80 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        <!--scripts -->
+        <script type="text/javascript">var switchTo5x=true;</script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">stLight.options({publisher: "6e69cebf-d2c3-4354-adbf-b9e32978b7e2"});</script>
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <!--scripts -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- Player -->
+        <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
+        <script>
+        _V_.options.flash.swf = "video-js.swf";
+        </script>
+        <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+        <script src="http://vjs.zencdn.net/c/video.js"></script>
+
     </head>
     <body>
+    <div id="contenedor-header">
+        <div id="header">
+            <h1 class="title1">EVGA GEFORCE GTX 680</h1></br>
+            <h1 class="title2"> EVGA  INTELLIGENT INNOVATION</h1>
+            <div id="social">   
+                <span class='st_sharethis_hcount' displayText='ShareThis'></span>
+                <span class='st_facebook_hcount' displayText='Facebook'></span>
+                <span class='st_twitter_hcount' displayText='Tweet'></span>
+                <span class='st_pinterest_hcount' displayText='Pinterest'></span>
+            </div>
+            <div id ="logo"></div>
+        </div>            
+    </div>
+
+        <div id="main">
+            <video id="video"  class="video-js vjs-default-skin" controls preload="auto" width="960" height="400" 
+                poster="http://hmdmodding.com/minisitios/minisite-evga/poster.jpg"
+                data-setup="{}">
+                <source src="http://hmdmodding.com/minisitios/minisite-evga/video/demo.mp4" type='video/mp4' />
+                 <track kind="captions" src="captions.vtt" srclang="en" label="English" />
+            </video>
+
+            <div class ="heading">
+                <div class="vga"></div>
+                <h1 class="title3">EVGA GEFORCE GTX 680 CLASSIFIED</h1>
+                <h1 class="title3-small">EVGA GEFORCE GTX 680 CLASSIFIED</h1>        
+            </div>
+
+            <div id="media-videos">
+                <div id="apdiv"></div>
+                <div class="title-videos">
+                    <h3 class="title4"><span>MEDIA CENTER</span> / VIDEOS</h3>
+                    <video id="trailer"  class="video-js vjs-default-skin" controls preload="auto" width="474" height="220" 
+                    poster="http://hmdmodding.com/minisitios/minisite-evga/poster.jpg"
+                    data-setup="{}">
+                    <source src="http://hmdmodding.com/minisitios/minisite-evga/video/demo2.mp4" type='video/mp4' />
+                     <track kind="captions" src="captions.vtt" srclang="en" label="English" />
+                    </video>
+                </div>
+            </div>
+           <div id="media-photos">
+                <div class="title-photos ">
+                    <h3 class="title4"><span>MEDIA CENTER</span> / VIDEOS</h3>
+                </div>
+            </div>
+        </div>
+        
+  
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
