@@ -245,6 +245,18 @@ textarea {
 
 }
 
+.small a {
+
+    opacity:0.6;
+
+}
+
+.small a:hover {
+
+    opacity: 1;
+
+}
+
 #specifications {
     float: left;
     background-color:rgba(32,32,32, 0.8);
@@ -281,7 +293,6 @@ textarea {
     -moz-border-radius:13px ;   
     -webkit-border-radius:13px ;
     border-radius:13px ;
-
 }
 
 /* ==========================================================================
